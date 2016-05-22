@@ -30,6 +30,7 @@ import githubIcon from 'images/themes/code_themes/github.png';
 import monokaiCSS from '!!file-loader?name=files/code_themes/[hash].[ext]!highlight.js/styles/monokai.css';
 import monokaiIcon from 'images/themes/code_themes/monokai.png';
 
+import opennmsThemeImage from 'images/themes/opennms.png';
 import defaultThemeImage from 'images/themes/organization.png';
 import mattermostDarkThemeImage from 'images/themes/mattermost_dark.png';
 import mattermostThemeImage from 'images/themes/mattermost.png';
@@ -506,6 +507,32 @@ export const Constants = {
     LOCK_ICON_SVG: "<svg width='12px' height='13px' viewBox='0 0 13 15' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'> <g stroke='none' stroke-width='1' fill='inherit' fill-rule='evenodd'> <g transform='translate(-116.000000, -175.000000)' fill-rule='nonzero' fill='inherit'> <g transform='translate(95.000000, 0.000000)'> <g transform='translate(20.000000, 113.000000)'> <g transform='translate(1.000000, 62.000000)'> <path d='M12.0714286,6.5 L11.1428571,6.5 L11.1428571,4.64285714 C11.1428571,2.07814286 9.06471429,0 6.5,0 C3.93528571,0 1.85714286,2.07814286 1.85714286,4.64285714 L1.85714286,6.5 L0.928571429,6.5 C0.415071429,6.5 0,7.00792857 0,7.52142857 L0,13.9285714 C0,14.4420714 0.415071429,14.8571429 0.928571429,14.8571429 L12.0714286,14.8571429 C12.5849286,14.8571429 13,14.4420714 13,13.9285714 L13,7.52142857 C13,7.00792857 12.5849286,6.5 12.0714286,6.5 Z M6.5,1.85714286 C8.03585714,1.85714286 9.28571429,3.107 9.28571429,4.64285714 L9.28571429,6.5 L8.35714286,6.5 L4.64285714,6.5 L3.71428571,6.5 L3.71428571,4.64285714 C3.71428571,3.107 4.96414286,1.85714286 6.5,1.85714286 Z'></path> </g> </g> </g> </g> </g> </svg>",
     THEMES: {
         default: {
+            type: 'OpenNMS',
+            sidebarBg: '#fafafa',
+            sidebarText: '#333333',
+            sidebarUnreadText: '#333333',
+            sidebarTextHoverBg: '#c8ecb9',
+            sidebarTextActiveBorder: '#4d9c2d',
+            sidebarTextActiveColor: '#111111',
+            sidebarHeaderBg: '#4d9c2d',
+            sidebarHeaderTextColor: '#ffffff',
+            onlineIndicator: '#4d9c2d',
+            awayIndicator: '#616e5b',
+            mentionBj: '#4d9c2d',
+            mentionColor: '#ffffff',
+            centerChannelBg: '#ffffff',
+            centerChannelColor: '#333333',
+            newMessageSeparator: '#4d9c2d',
+            linkColor: '#4d9c2d',
+            buttonBg: '#4d9c2d',
+            buttonColor: '#FFFFFF',
+            errorTextColor: '#fd5960',
+            mentionHighlightBg: '#dfa12e',
+            mentionHighlightLink: '#4d9c2d',
+            codeTheme: 'github',
+            image: opennmsThemeImage
+        },
+        mattermost: {
             type: 'Mattermost',
             sidebarBg: '#145dbf',
             sidebarText: '#ffffff',
